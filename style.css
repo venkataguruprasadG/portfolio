@@ -1,7 +1,41 @@
-h1 {
-    color: black;
-
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire body to Arial with a fallback to sans-serif */
+    margin: 0; /* Removes default margin from the body */
+    padding: 0; /* Removes default padding from the body */
+    background: #f4f4f4; /* Sets the background color of the body to a light grey */
 }
-* {
-    background-color: burlywood;
+
+header {
+    background: #333; /* Sets the background color of the header to dark grey */
+    color: #fff; /* Sets the text color in the header to white */
+    padding: 20px 0; /* Adds 20 pixels of padding at the top and bottom of the header */
+    text-align: center; /* Centers the text in the header */
+}
+
+nav ul {
+    list-style: none; /* Removes the default bullet points from the list */
+    padding: 0; /* Removes default padding from the list */
+    margin: 0; /* Removes default margin from the list */
+    display: flex; /* Uses flexbox to align items horizontally */
+    justify-content: center; /* Centers the list items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Adds 15 pixels of margin on the left and right of each list item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes the underline from the links */
+    color: #fff; /* Sets the link color to white */
+    font-weight: bold; /* Makes the text bold */
+    transition: color 0.3s ease; /* Adds a smooth color transition effect when hovering over the links */
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Changes the link color to tomato red when hovered over */
+}
+
+h1 {
+    margin-top: 10px; /* Adds a top margin of 10 pixels to the h1 element */
+    font-size: 2.5em; /* Sets the font size of the h1 element to 2.5 times the normal size */
 }
